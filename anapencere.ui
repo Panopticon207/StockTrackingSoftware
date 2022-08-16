@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Anapencere</class>
+ <widget class="QMainWindow" name="Anapencere">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>908</width>
+    <height>696</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>761</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>30</number>
+    </property>
+    <property name="columnCount">
+     <number>6</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Stok Adı</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Marka</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Model</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Miktar</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Açıklama</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>70</y>
+      <width>421</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>ÜRÜN ARA:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_urunara"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="urun_ara">
+       <property name="text">
+        <string>ARA</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="hepsinilistelebuton">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>70</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hepsini Listele</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>908</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="stokkartolusturinmenu"/>
+    <addaction name="stokgirisinmenu"/>
+    <addaction name="stokcikisinmenu"/>
+    <addaction name="stokhareketleriinmenu"/>
+    <addaction name="stokkartsilinmenu"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="stokkartolusturinmenu">
+   <property name="text">
+    <string>Stok Kart Oluştur</string>
+   </property>
+  </action>
+  <action name="stokgirisinmenu">
+   <property name="text">
+    <string>Stok Giriş</string>
+   </property>
+  </action>
+  <action name="stokcikisinmenu">
+   <property name="text">
+    <string>Stok Çıkış</string>
+   </property>
+  </action>
+  <action name="stokhareketleriinmenu">
+   <property name="text">
+    <string>Stok Hareketleri</string>
+   </property>
+  </action>
+  <action name="stokkartsilinmenu">
+   <property name="text">
+    <string>Stok Kart Sil</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

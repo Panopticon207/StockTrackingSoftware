@@ -1,0 +1,57 @@
+{
+      "Kartlar": [
+            {
+                  "ID": 123,
+                  "Ad": "Honda Civic",
+                  "Marka": "Honda",
+                  "Model": "Civic",
+                  "Miktar": -5,
+                  "Aciklama": 0,
+                  "Hareketler": [
+                        {
+                              "Adet": -5,
+                              "Alici": "saff",
+                              "Tedarikci": "Furkan Holding",
+                              "Fatura Tarih": "213213",
+                              "Fatura Numara": "213"
+                        }
+                  ]
+            },
+            {
+                  "ID": 234,
+                  "Ad": "Toyota Corolla",
+                  "Marka": "Toyota",
+                  "Model": "Corolla",
+                  "Miktar": 0,
+                  "Aciklama": 0,
+                  "Hareketler": []
+            },
+            {
+                  "ID": 333,
+                  "Ad": "Ford Fiesta",
+                  "Marka": "Ford",
+                  "Model": "Fiesta",
+                  "Miktar": 0,
+                  "Aciklama": 0,
+                  "Hareketler": []
+            },
+            {
+                  "ID": 4232,
+                  "Ad": "Ford Focus",
+                  "Marka": "Ford",
+                  "Model": "Focus",
+                  "Miktar": 0,
+                  "Aciklama": 0,
+                  "Hareketler": []
+            },
+            {
+                  "ID": 1234,
+                  "Ad": "Honda Civic",
+                  "Marka": "Honda",
+                  "Model": "Civic",
+                  "Miktar": 0,
+                  "Aciklama": 0,
+                  "Hareketler": []
+            }
+      ]
+}
